@@ -1,5 +1,5 @@
 name: gu-domains-push
-description: "After each push to your repo, copies the `docs` subdirectory to a path on your Georgetown Domains server specified by the `GU_DOMAINS_PATH` secret."
+description: "Copies the `docs` subdirectory to a path on your Georgetown Domains server specified by the `GU_DOMAINS_PATH` secret."
 on: [push]
 jobs:
   build:
