@@ -1,6 +1,6 @@
 # Georgetown Domains Push (GitHub Action)
 
-(GH Actions Marketplace description): After each push to your repo, copies the `docs` subdirectory to a path on your Georgetown Domains server specified by the `GU_DOMAINS_PATH` secret.
+(GH Actions Marketplace description): Copies the `docs` subdirectory to a path on your Georgetown Domains server specified by the `GU_DOMAINS_PATH` secret.
     
 This Action takes all files/folders within the `docs` subdirectory of your repository and, upon completion of each push to your repository, copies these files/folders (using SCP) to the directory on your Georgetown Domains server specified by the `GU_DOMAINS_PATH` secret variable.
 
