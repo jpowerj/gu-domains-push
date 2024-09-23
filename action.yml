@@ -15,9 +15,8 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        port: ${{ secrets.PORT }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        passphrase: ${{ secrets.SSH_PRIVATE_KEY_PASSPHRASE }}
+        password: ${{ secrets.PASSWORD }}
+        port: 22
         source: "docs/*"
         target: ${{ secrets.GU_DOMAINS_PATH }}
         strip_components: 1
